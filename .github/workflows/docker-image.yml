@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 env:
-  REPO_NAME: nuer # 注意使用全小写
+  REPO_NAME: nuersir # 注意使用全小写
 
 jobs:
 
