@@ -15,4 +15,4 @@ RUN yarn install
 # CMD ["yarn", "start"]
 
 # 容器启动时编译, 此作法可解决`docker run`时静态化`NEXT_PUBLIC_API_URL`域名
-CMD ["yarn", "build", "&&", "yarn", "start"]
+CMD ["sh", "-c", "yarn build && yarn start"]
